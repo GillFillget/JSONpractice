@@ -5,3 +5,8 @@ const cat = {
 }
 
 let catJSON = JSON.stringify(cat);
+
+console.log(catJSON);
+
+let fs = require("fs");
+fs.writeFile("catJSON.json",catJSON,() => {});
