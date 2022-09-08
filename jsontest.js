@@ -1,7 +1,9 @@
 const cat = {
     animalName: "Cat",
     animalSound: "Meow",
-    animalName: 11
+    animalAge: 20,
+    animalColor: "Gray",
+    animalName: "Penny"
 }
 
 let catJSON = JSON.stringify(cat);
